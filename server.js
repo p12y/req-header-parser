@@ -4,7 +4,6 @@ var express = require('express');
 var app = express();
 
 app.get("/", function (req, res) {
-  //response.sendFile(__dirname + '/views/index.html');
   var h = req.headers;
   res.json(
     {
